@@ -7,6 +7,7 @@ return [
     |--------------------------------------------------------------------------
     */
     'model' => Venturecraft\Revisionable\Revision::class,
+    'connection' => env('REVISION_CONNECTION'),
 
     'additional_fields' => [],
 
